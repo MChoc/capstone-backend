@@ -175,7 +175,7 @@ ACCOUNT_EMAIL_VERIFICATION = "none"
 SITE_ID = 1
 
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:4200',
+    'https://waiting-for-the-train.herokuapp.com',
 )
 
 django_heroku.settings(locals())
