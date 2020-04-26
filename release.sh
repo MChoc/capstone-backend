@@ -1,2 +1,2 @@
 python manage.py migrate
-python manage.py loaddata database.json
+python manage.py shell < dummy_data.py
